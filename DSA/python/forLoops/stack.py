@@ -34,3 +34,7 @@ if not stack:
     print("Stack is now empty")
     
     
+    list = []
+
+
+    
