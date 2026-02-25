@@ -10,7 +10,7 @@
         <h1>
             TODO LIST
         </h1>
-        <input id = "input-section" placeholder="add a list">
+        <input id = "input-section" placeholder="add a list" onkeydown="if(event.key === 'Enter') addToList()">
         <button id = "add-btn" onclick="addToList()">Add</button>
         <ul id = "list-section"></ul>
     </div>

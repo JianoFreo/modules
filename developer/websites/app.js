@@ -3,6 +3,6 @@ function addToList() {
     const list = document.getElementById("list-section");
     const item = document.createElement("li");
     item.textContent = input.value;
-    list.appendChild(item);
+    list.insertBefore(item, list.firstChild);  // Insert at beginning (stack behavior)
     input.value = "";
 }
